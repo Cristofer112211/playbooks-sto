@@ -1,5 +1,5 @@
 - name: Cambiar hostname según IP
-  hosts: all
+  hosts: 10.66.86.37
   become: yes
   vars:
     ip_hostname_map:
